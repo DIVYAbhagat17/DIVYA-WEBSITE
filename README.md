@@ -68,7 +68,7 @@ DIVYA-WEBSITE/
 
 Explore my website here:
 
-**[🌐 Visit Divya's Website](https://beamish-pithivier-e98961.netlify.app)**
+**[🌐 Visit Divya's Website](https://divyabhagatweb.netlify.app/)**
 
 ## 🌱 What's Next?
 
