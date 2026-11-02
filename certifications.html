@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Certifications & Workshops | Divya Bhagat</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+:root {
+  --blue: #0000FF;
+  --black: #000000;
+  --yellow: #FFFF00;
+  --red: #FF0000;
+  --white: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: var(--white);
+  color: var(--black);
+  transition: .25s;
+}
+
+body.dark {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 76px;
+  padding: 0 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--white);
+  border-bottom: 3px solid var(--black);
+  z-index: 1000;
+}
+
+body.dark nav {
+  background: #000;
+  color: white;
+  border-color: white;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand-mark {
+  width: 42px;
+  height: 42px;
+  border: 3px solid black;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  background: var(--yellow);
+  color: black;
+}
+
+.brand-text {
+  font-family: "Space Grotesk";
+  font-weight: 700;
+}
+
+.brand-text small {
+  display: block;
+  font-size: .62rem;
+  color: var(--blue);
+}
+
+.nav-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.theme-btn {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  background: white;
+  cursor: pointer;
+}
+
+body.dark .theme-btn {
+  background: black;
+  color: white;
+  border-color: white;
+}
+
+.container {
+  width: min(1180px, 88%);
+  margin: auto;
+}
+
+main {
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+.section-label {
+  font-size: .8rem;
+  font-weight: 700;
+  color: var(--blue);
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-family: "Space Grotesk";
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: 20px;
+}
+
+.red {
+  color: var(--red);
+}
+
+.section-copy {
+  max-width: 650px;
+  line-height: 1.7;
+  margin-bottom: 45px;
+}
+
+.year-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.year-card {
+  padding: 30px;
+  border: 3px solid black;
+  background: var(--yellow);
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: .2s;
+}
+
+.year-card:nth-child(2) {
+  background: #ff9f43;
+}
+
+.year-card:nth-child(3) {
+  background: #b8e986;
+}
+
+.year-card:nth-child(4) {
+  background: #c7b5ff;
+}
+
+.year-card:nth-child(5) {
+  background: #ffb5c5;
+}
+
+.year-card:hover {
+  transform: translateY(-5px);
+}
+
+.year-card h3 {
+  font-family: "Space Grotesk";
+  font-size: 1.5rem;
+}
+
+.year-card p {
+  margin-top: 8px;
+}
+
+.year-card span {
+  font-size: 2rem;
+}
+
+footer {
+  background: var(--red);
+  color: white;
+  border-top: 3px solid black;
+  padding: 30px 0;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+body.dark footer {
+  border-top-color: #334155;
+}
+
+@media(max-width: 650px) {
+  .year-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+  <a class="brand" href="index.html">
+
+    <div class="brand-mark">DB</div>
+
+    <div class="brand-text">
+      Divya Bhagat
+      <small>AI · ML · DATA SCIENCE</small>
+    </div>
+
+  </a>
+
+  <div class="nav-actions">
+
+    <a href="index.html">Home</a>
+
+    <button class="theme-btn" id="themeBtn">
+      <i class="fa-solid fa-moon"></i>
+    </button>
+
+  </div>
+
+</nav>
+
+
+<main>
+
+  <div class="container">
+
+    <p class="section-label">
+      04 · Certifications & Workshops
+    </p>
+
+    <h1 class="section-title">
+      My learning <span class="red">journey.</span>
+    </h1>
+
+    <p class="section-copy">
+      Explore the certifications, workshops and learning experiences
+      I have completed during my academic journey.
+      Select an academic year to view its certificates.
+    </p>
+
+
+    <div class="year-grid">
+
+      <a href="2025-26.html" class="year-card">
+        <div>
+          <h3>2025–26</h3>
+          <p>Certifications and workshops</p>
+        </div>
+        <span>→</span>
+      </a>
+
+
+      <a href="2026-27.html" class="year-card">
+        <div>
+          <h3>2026–27</h3>
+          <p>Certifications and events</p>
+        </div>
+        <span>→</span>
+      </a>
+
+
+      <a href="2027-28.html" class="year-card">
+        <div>
+          <h3>2027–28</h3>
+          <p>Coming soon</p>
+        </div>
+        <span>→</span>
+      </a>
+
+
+      <a href="2028-29.html" class="year-card">
+        <div>
+          <h3>2028–29</h3>
+          <p>Coming soon</p>
+        </div>
+        <span>→</span>
+      </a>
+
+
+      <a href="2029-30.html" class="year-card">
+        <div>
+          <h3>2029–30</h3>
+          <p>Coming soon</p>
+        </div>
+        <span>→</span>
+      </a>
+
+    </div>
+
+  </div>
+
+</main>
+
+
+<footer>
+
+  <div class="container footer-inner">
+
+    <strong>
+      Divya Bhagat · AI & Machine Learning<br>
+      divyabhagat208@gmail.com
+    </strong>
+
+    <span>
+      Built with curiosity, code and a lot of learning.
+    </span>
+
+  </div>
+
+</footer>
+
+
+<script>
+
+const body = document.body;
+const themeBtn = document.getElementById("themeBtn");
+
+const savedTheme = localStorage.getItem("divya-theme");
+
+if (savedTheme === "dark") {
+  body.classList.add("dark");
+}
+
+function updateThemeIcon() {
+  themeBtn.innerHTML = body.classList.contains("dark")
+    ? '<i class="fa-solid fa-sun"></i>'
+    : '<i class="fa-solid fa-moon"></i>';
+}
+
+updateThemeIcon();
+
+themeBtn.addEventListener("click", () => {
+
+  body.classList.toggle("dark");
+
+  localStorage.setItem(
+    "divya-theme",
+    body.classList.contains("dark") ? "dark" : "light"
+  );
+
+  updateThemeIcon();
+
+});
+
+</script>
+
+</body>
+</html>

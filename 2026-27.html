@@ -1,0 +1,373 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>2026–27 | Divya Bhagat</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: white;
+  color: black;
+  transition: .25s;
+}
+
+body.dark {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 76px;
+  padding: 0 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  border-bottom: 3px solid black;
+  z-index: 1000;
+}
+
+body.dark nav {
+  background: black;
+  color: white;
+  border-color: white;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand-mark {
+  width: 42px;
+  height: 42px;
+  border: 3px solid black;
+  background: yellow;
+  color: black;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+}
+
+.brand-text {
+  font-family: "Space Grotesk";
+  font-weight: 700;
+}
+
+.brand-text small {
+  display: block;
+  font-size: .62rem;
+  color: blue;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-actions a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.theme-btn {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  background: white;
+  cursor: pointer;
+}
+
+body.dark .theme-btn {
+  background: black;
+  color: white;
+  border-color: white;
+}
+
+.container {
+  width: min(1180px, 88%);
+  margin: auto;
+}
+
+main {
+  padding: 125px 0 80px;
+}
+
+.section-label {
+  color: blue;
+  font-size: .8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-family: "Space Grotesk";
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: 15px;
+}
+
+.red {
+  color: red;
+}
+
+.section-copy {
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 30px;
+  color: blue;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  color: red;
+}
+
+.certificate-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.certificate {
+  border: 3px solid black;
+  padding: 15px;
+  background: white;
+  color: black;
+}
+
+body.dark .certificate {
+  background: #1e293b;
+  color: white;
+  border-color: #64748b;
+}
+
+.certificate img {
+  width: 100%;
+  height: 230px;
+  object-fit: contain;
+  background: #f1f1f1;
+  border: 1px solid #ddd;
+}
+
+.certificate h3 {
+  font-family: "Space Grotesk";
+  font-size: 1.05rem;
+  margin-top: 15px;
+}
+
+.certificate p {
+  font-size: .85rem;
+  margin-top: 7px;
+  color: #555;
+}
+
+body.dark .certificate p {
+  color: #cbd5e1;
+}
+
+footer {
+  background: red;
+  color: white;
+  border-top: 3px solid black;
+  padding: 30px 0;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+@media(max-width: 650px) {
+  .certificate-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+  <a class="brand" href="index.html">
+    <div class="brand-mark">DB</div>
+
+    <div class="brand-text">
+      Divya Bhagat
+      <small>AI · ML · DATA SCIENCE</small>
+    </div>
+  </a>
+
+  <div class="nav-actions">
+    <a href="index.html">Home</a>
+
+    <button class="theme-btn" id="themeBtn">
+      <i class="fa-solid fa-moon"></i>
+    </button>
+  </div>
+
+</nav>
+
+
+<main>
+
+<div class="container">
+
+  <a href="certifications.html" class="back-link">
+    ← Back to Certifications
+  </a>
+
+  <p class="section-label">CERTIFICATIONS & WORKSHOPS</p>
+
+  <h1>
+    Academic Year <span class="red">2026–27</span>
+  </h1>
+
+  <p class="section-copy">
+    Events, participation certificates and achievements
+    from the academic year 2026–27.
+  </p>
+
+
+  <div class="certificate-grid">
+
+
+    <div class="certificate">
+      <img src="images/capitol conclave.jpg" alt="Capitol Conclave certificate">
+      <h3>Capitol Conclave – IITM Paradox</h3>
+      <p>Event Certificate</p>
+    </div>
+
+
+    <div class="certificate">
+      <img src="images/b2b participation.jpg" alt="Back to Bachpan certificate">
+      <h3>Back to Bachpan – IITM Paradox</h3>
+      <p>Event Certificate</p>
+    </div>
+
+
+    <div class="certificate">
+      <img src="images/escape room.jpg" alt="Escape Room certificate">
+      <h3>Escape Room – IITM Paradox</h3>
+      <p>Event Certificate</p>
+    </div>
+
+
+    <div class="certificate">
+      <img src="images/quotopia.jpg" alt="Quotopia certificate">
+      <h3>Quotopia – IITM Paradox</h3>
+      <p>Event Certificate</p>
+    </div>
+
+
+    <div class="certificate">
+      <img src="images/whispers from amrs.jpg" alt="Whispers from Mars certificate">
+      <h3>Whispers from Mars – IITM Paradox</h3>
+      <p>Event Certificate</p>
+    </div>
+
+
+    <div class="certificate">
+      <img src="images/tvs certificate of participation_page-0001.jpg" alt="TVS Credit EPIC 8.0 certificate">
+      <h3>TVS Credit E.P.I.C. 8.0</h3>
+      <p>Certificate</p>
+    </div>
+
+
+  </div>
+
+</div>
+
+</main>
+
+
+<footer>
+  <div class="container footer-inner">
+
+    <strong>
+      Divya Bhagat · AI & Machine Learning<br>
+      divyabhagat208@gmail.com
+    </strong>
+
+    <span>
+      Built with curiosity, code and a lot of learning.
+    </span>
+
+  </div>
+</footer>
+
+
+<script>
+
+const body = document.body;
+const themeBtn = document.getElementById("themeBtn");
+
+if (localStorage.getItem("divya-theme") === "dark") {
+  body.classList.add("dark");
+}
+
+function updateThemeIcon() {
+  themeBtn.innerHTML = body.classList.contains("dark")
+    ? '<i class="fa-solid fa-sun"></i>'
+    : '<i class="fa-solid fa-moon"></i>';
+}
+
+updateThemeIcon();
+
+themeBtn.addEventListener("click", () => {
+
+  body.classList.toggle("dark");
+
+  localStorage.setItem(
+    "divya-theme",
+    body.classList.contains("dark") ? "dark" : "light"
+  );
+
+  updateThemeIcon();
+
+});
+
+</script>
+
+</body>
+</html>
