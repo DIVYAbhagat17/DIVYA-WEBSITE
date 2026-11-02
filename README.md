@@ -6,7 +6,7 @@
 
 ### 🌷 A place where my journey, achievements and memories come together.
 
-[![Website](https://img.shields.io/badge/Visit-My%20Website-9B59B6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://beamish-pithivier-e98961.netlify.app)
+[![Website](https://img.shields.io/badge/Visit-My%20Website-9B59B6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://divyabhagatweb.netlify.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/DIVYAbhagat17/DIVYA-WEBSITE)
 
 </div>
